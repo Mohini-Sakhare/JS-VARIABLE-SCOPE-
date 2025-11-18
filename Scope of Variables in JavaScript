@@ -1,0 +1,19 @@
+## Scope of Variables in JavaScript :-
+In JavaScript, scope is the context that determines where variables can be accessed, helping write cleaner and error-free code.
+// Declaring a global variable
+let x = 10;
+
+function func() {
+    
+    // Declaring a local variable
+    let y = 20;
+
+    // Accessing Local and Global
+    // variables
+    console.log(x,",", y);
+}
+
+func();
+
+output:-
+10,20
