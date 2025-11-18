@@ -17,3 +17,19 @@ func();
 
 output:-
 10,20
+
+1. Global and Local Scope
+// Global Scope 
+let x=10;
+
+function f1(){
+//local scope 
+let y=20;
+console.log("Global scope",x);
+console.log("local scope",y);
+}
+f1();
+
+output:
+10 
+20
