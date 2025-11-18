@@ -33,3 +33,17 @@ f1();
 output:
 10 
 20
+
+1) Global Scope
+A global variable refers to a variable that is declared outside any function or block, so it can be used anywhere in the program, both inside functions and in the main code.
+// Global Variable accessed from within a function 
+const x = 10;
+
+function fun1() {
+    console.log(x);
+}
+
+fun1();
+
+output:-
+10
