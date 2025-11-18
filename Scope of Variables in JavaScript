@@ -47,3 +47,6 @@ fun1();
 
 output:-
 10
+
+Explanation: 
+In the program, the variables outside the function and now we can access those variables from anywhere in the JavaScript program.
