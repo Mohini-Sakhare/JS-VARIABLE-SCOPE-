@@ -63,3 +63,6 @@ function fun2(){
 }
 
 fun2();
+
+output :-
+10
