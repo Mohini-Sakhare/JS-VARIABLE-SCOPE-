@@ -88,3 +88,9 @@ These variables are accessible only within that block and not outside it.
 }
 
 console.log(x);
+
+output:-
+10
+20
+30
+10
