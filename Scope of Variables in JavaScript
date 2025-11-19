@@ -73,3 +73,18 @@ In the Program, the code defines a function fun2 with a local variable x, which 
 3) Block Scope
 In JavaScript, block scope refers to variables declared with let or const inside a { } block. 
 These variables are accessible only within that block and not outside it.
+{
+    
+    // Var can Accessible inside & outside the block scope 
+    var x = 10;
+    
+    // let , const Accessible only inside the block scope
+    const y = 20;
+    let z = 30;
+    
+    console.log(x);
+    console.log(y);
+    console.log(z);
+}
+
+console.log(x);
