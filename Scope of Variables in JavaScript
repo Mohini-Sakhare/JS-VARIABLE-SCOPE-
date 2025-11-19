@@ -50,3 +50,16 @@ output:-
 
 Explanation: 
 In the program, the variables outside the function and now we can access those variables from anywhere in the JavaScript program.
+
+2) Local Scope/function scope:-
+A local variable is a variable declared inside a function, making it accessible only within that function. It cannot be used outside the function.
+Functions and Objects are also variables in JavaScript.
+function fun2(){
+    
+    // This variable is local to fun2() and 
+    // cannot be accessed outuside this function
+    let x = 10;
+    console.log(x);
+}
+
+fun2();
