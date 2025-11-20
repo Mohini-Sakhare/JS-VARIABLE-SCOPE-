@@ -112,3 +112,6 @@ function func1() {
 }
 
 func1();
+
+output:-
+10 20
