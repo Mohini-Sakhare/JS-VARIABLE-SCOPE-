@@ -100,3 +100,15 @@ In the Program, we have successfully accessed the variable with the var keyword 
 
 4) Lexical Scope
 The variable is declared inside the function and can only be accessed inside that block or nested block is called lexical scope.
+function func1() {
+    const x = 10;
+
+    function func2() {
+        const y = 20;
+        console.log(`${x} ${y}`);
+    }
+
+    func2();
+}
+
+func1();
