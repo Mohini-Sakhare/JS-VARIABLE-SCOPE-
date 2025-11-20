@@ -94,3 +94,9 @@ output:-
 20
 30
 10
+
+Explanation:
+In the Program, we have successfully accessed the variable with the var keyword because var does not have a block scope.
+
+4) Lexical Scope
+The variable is declared inside the function and can only be accessed inside that block or nested block is called lexical scope.
